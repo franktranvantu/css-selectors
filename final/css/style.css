@@ -1,19 +1,25 @@
-/* Structural Pseudo-classes------------------ */
+/* Base Styles -------------------------------- */
 
-li:first-child {
-  background-color: #52bab3;
-  color: white;
+body {
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.5;
+	color: #384047;
+	padding: 10px 0 80px;
+}
+div {
+	max-width: 610px;
+	margin: auto;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	margin-bottom: 14px;
+}
+a {
+	color: #4183c4;
 }
 
-li:last-child {
-  border-bottom: none;
-}
+/* Substring Matching Attribute Selectors ---- */
 
-span:only-child {
-  color: #52bab3;
-  font-size: 1.5em;
-}
-
-li:empty {
-  background-color: tomato;
-}

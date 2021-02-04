@@ -1,1 +1,1 @@
-Besides being able to target first and last child elements with pseudo-classes, the browser can also target only child elements and empty elements.
+With substring matching attribute selectors, we can target specific pieces of an attribute's value, like certain letters and words.
