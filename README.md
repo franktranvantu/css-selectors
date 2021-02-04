@@ -1,1 +1,3 @@
-Now that we know how to target an element's attribute, let's learn the different ways we can select form buttons and links with attribute selectors.
+DRY stands for "Don’t Repeat Yourself." The main idea with DRY in CSS is to avoid repeating the same bits of code in our style sheet. 
+
+In this section, we'll take a look at a few example of writing DRY'er CSS.

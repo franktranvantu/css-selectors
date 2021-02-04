@@ -14,14 +14,52 @@ input[type="email"] {
   background: #fdfee6;
 }
 
-input[type="button"],
-input[type="submit"],
-input[type="reset"] {
-  cursor: pointer;
-}
-
 a[target="_blank"] {
   color: #39add1;
   border-bottom: dotted 1px;
   text-decoration: none;
+}
+
+/* DRY Classes ------------- */
+
+.br {
+  border-radius: 0.5em;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto 2em;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  opacity: .75;
+}
+
+.default {
+  background-color: #52bab3;
+}
+
+.error {
+  background-color: #ff784f;
+}
+
+@media (min-width: 769px) {
+  .inline {
+    width: auto;
+    display: inline-block;
+  }
 }
