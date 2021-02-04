@@ -1,2 +1,2 @@
-/*Create an attribute selector that targets img elements with a title attribute value of "avatar".
-Give the elements a border radius of 50%.*/
+/*Create a child selector that targets li elements that are direct children of .main-nav.
+Set the display to inline-block and the left margin to 20px.*/

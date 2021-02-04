@@ -4,79 +4,52 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
-  padding: 20px 0 60px;
+  padding-top: 20px;
+  line-height: 1.5;
 }
 h1 {
   margin: 0 0 30px 0;
+}
+a {
+  text-decoration: none;
+}
+.main,
+header {
+  margin: auto;
+  width: 92%;
+}
+header {
   text-align: center;
 }
-img {
-  display: block;
-  margin: 1em auto 2em;
-}
-
-/* Main -------------------- */
-
-#container {
-  width: 92%;
-  margin: auto;
-}
-
-/* Form -------------------- */
-
-.form-contact {
-  padding: 20px 24px;
-  background: #f4f7f8;
-  border-radius: .5em;
-}
-label {
-  display: block;
-  margin-bottom: 0.5em;
-}
-input {
-  outline: 0;
-  border: none;
-  padding: 15px;
-  border-radius: .3em;
-  border-bottom: 3px solid rgba(0,0,0,0.05);
-}
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  font-size: 1em;
-  color: #222;
+p {
   font-weight: 300;
-  width: 100%;
-  height: auto;
-  margin-bottom: 1.2em;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.08) inset;
 }
-input[type="submit"] {
-  font-size: 0.875em;
-  font-weight: 400;
-  cursor: pointer;
-  color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  margin: 1em 0;
-  text-transform: uppercase;
+h2 {
+  color: #6d6d6d;
+  font-size: 1.4em;
+  margin: 0;
 }
-input[type="submit"]:hover {
-  opacity: .75;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-form > a {
-  font-size: .85em;
+ul {
+  margin-bottom: 2em;
 }
-input:focus,
-textarea:focus {
-  border-color: #52bab3;
+ul a {
+  color: dodgerblue;
+}
+.post {
+  border-top: 1px dotted #bbb;
+  padding: 15px 0 0;
 }
 
 /* Media Queries -------------------- */
 
 @media (min-width: 769px) {
-  #container {
-    max-width: 550px;
+  .main,
+  header {
+    max-width: 600px;
   }
 }

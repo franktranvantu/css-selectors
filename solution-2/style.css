@@ -1,9 +1,11 @@
-/*Next, create a new attribute selector that targets input elements with a type attribute value of password.
-Then, set the color to #ccc.*/
-img[title="avatar"] {
-  border-radius: 50%;
+/*It looks like we need to decrease the space between h2 elements and the paragraph that immediately follows.
+Create a new selector that targets p elements that are adjacent siblings of an h2.
+Then, set the top margin to .5em.*/
+.main-nav > li {
+  display: inline-block;
+  margin-left: 20px;
 }
 
-input[type="password"] {
-  color: #ccc;
+h2 + p {
+  margin-top: .5em;
 }
