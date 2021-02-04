@@ -1,1 +1,1 @@
-In this section, we'll learn how to target first and last child elements with the `:first-child` and `:last child` structural pseudo-classes.
+Besides being able to target first and last child elements with pseudo-classes, the browser can also target only child elements and empty elements.
