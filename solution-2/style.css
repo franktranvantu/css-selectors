@@ -1,11 +1,12 @@
-/*It looks like we need to decrease the space between h2 elements and the paragraph that immediately follows.
-Create a new selector that targets p elements that are adjacent siblings of an h2.
-Then, set the top margin to .5em.*/
-.main-nav > li {
-  display: inline-block;
-  margin-left: 20px;
+/*Next, create a new pseudo-class selector that targets the last-child li in .main-nav.
+Give it a top-right and bottom-right border-radius of 5px.*/
+.main-nav li:first-child {
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-h2 + p {
-  margin-top: .5em;
+.main-nav li:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }

@@ -1,2 +1,4 @@
-/*Create a child selector that targets li elements that are direct children of .main-nav.
-Set the display to inline-block and the left margin to 20px.*/
+/*Create a pseudo-class selector that targets the first-child li in .main-nav.
+Remove all border styles by setting border to none.
+Then, set the top-left and bottom-left border-radius to 5px.
+Watch this related video for a review on border-radius.*/
