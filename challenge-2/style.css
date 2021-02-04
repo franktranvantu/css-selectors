@@ -1,0 +1,5 @@
+/*Next, create a new attribute selector that targets input elements with a type attribute value of password.
+Then, set the color to #ccc.*/
+img[title="avatar"] {
+  border-radius: 50%;
+}

@@ -1,0 +1,13 @@
+/*Finally, write a new attribute selector that targets input elements with a type attribute value of submit.
+Then, set the background color to #52bab3.*/
+img[title="avatar"] {
+  border-radius: 50%;
+}
+
+input[type="password"] {
+  color: #ccc;
+}
+
+input[type="submit"] {
+  background-color: #52bab3;
+}
