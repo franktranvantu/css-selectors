@@ -1,6 +1,0 @@
-/*Create a child selector that targets li elements that are direct children of .main-nav.
-Set the display to inline-block and the left margin to 20px.*/
-.main-nav > li {
-  display: inline-block;
-  margin-left: 20px;
-}

@@ -1,0 +1,1 @@
+In this section, we'll learn how to target first and last child elements with the `:first-child` and `:last child` structural pseudo-classes.
