@@ -1,1 +1,1 @@
-CSS gives us the flexibility of being able to target an element by any of its HTML attributes and values.
+Now that we know how to target an element's attribute, let's learn the different ways we can select form buttons and links with attribute selectors.

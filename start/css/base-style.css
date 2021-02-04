@@ -27,7 +27,7 @@ form {
 input,
 textarea {
   font-size: 1em;
-  color: black;
+  color: #222;
   font-weight: 300; 
   width: 100%;
   border: none;
