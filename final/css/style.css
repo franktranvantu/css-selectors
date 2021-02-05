@@ -37,3 +37,11 @@ h1::after {
   background-color: coral;
   margin: 0 10px;
 }
+
+.d-loads a::after {
+  content: attr(title);
+  display: inline-block;
+  color: initial;
+  font-size: .65em;
+  margin-left: 5px;
+}

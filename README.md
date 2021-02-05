@@ -1,3 +1,5 @@
-The `::before` and `::after` pseudo-elements let us insert virtual elements before and after an element’s content. 
+We're also able to write simple CSS functions to generate content. 
 
-These virtual elements are visible to the user and are style-able with CSS, but they do not appear in the source code.
+In this section, we'll see how the attr() function inserts an element's attribute value as page content. 
+
+Before we wrap up, we'll do a quick review of the advanced selectors we just learned.
