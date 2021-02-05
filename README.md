@@ -1,1 +1,3 @@
-The `::first-line` and `::first-letter` pseudo-elements let us target the first line of text and the first character in a line of text.
+The `::before` and `::after` pseudo-elements let us insert virtual elements before and after an element’s content. 
+
+These virtual elements are visible to the user and are style-able with CSS, but they do not appear in the source code.
