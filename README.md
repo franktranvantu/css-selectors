@@ -1,1 +1,1 @@
-The `:not()` pseudo-class is referred to as a negation pseudo-class because it selects everything except the element we specify in the selector.
+The `::first-line` and `::first-letter` pseudo-elements let us target the first line of text and the first character in a line of text.
