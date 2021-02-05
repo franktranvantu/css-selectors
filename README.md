@@ -1,1 +1,1 @@
-In this section, we'll cover the `:root` and `:target` pseudo-classes. `:root` selects the highest-level parent element in a document, and `:target` selects an element when it's the target of a link.
+The `:not()` pseudo-class is referred to as a negation pseudo-class because it selects everything except the element we specify in the selector.
