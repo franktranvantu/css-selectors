@@ -1,1 +1,1 @@
-With substring matching attribute selectors, we can target specific pieces of an attribute's value, like certain letters and words.
+The “contains” substring matching attribute selector targets an element containing the piece of code we define anywhere in an attribute's value.
