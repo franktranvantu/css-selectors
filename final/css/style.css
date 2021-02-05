@@ -1,6 +1,0 @@
-/* Structural Pseudo-classes------------------ */
-
-div:nth-of-type(4) { /* even, odd, integer, an+b/n+b/an/n/-an+b/-n+b */
-  background: #52bab3;
-  color: white;
-}

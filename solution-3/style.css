@@ -1,0 +1,12 @@
+/* It looks like an <h1> made its way inside the parent body.
+Now our :nth-child selector no longer targets the desired combination of img child elements.
+Replace :nth-child with the pseudo-class that only targets a specific type of child element. */
+
+@media (min-width: 607px) {
+    img {
+        float: left;
+    }
+    img:nth-of-type(3n+4) {
+        clear: left;
+    }
+}

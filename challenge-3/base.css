@@ -1,0 +1,28 @@
+body {
+    padding-top: 20px;
+}
+img {
+    border: solid 2px;
+    width: 160px;
+    height: 120px;
+}
+@media (min-width: 0) and (max-width: 606px) {
+    body {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    img {
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
+}
+@media (min-width: 607px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    img {
+        margin: 5px;
+    }
+}

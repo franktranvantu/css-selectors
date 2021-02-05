@@ -1,0 +1,7 @@
+/* Inside the media query, create a new rule that targets img elements. Then, float the images left. */
+
+@media (min-width: 607px) {
+    img {
+        float: left;
+    }
+}
